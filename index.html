@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="index.css">
+    <title>Colour Scheme Generator</title> 
+</head>
+<body>
+    <form>
+        <h1>colorido</h1>
+        <div class="selectors-div" id="selectors-div">
+            <input name="seed-colour" id="seed-colour" type="color" aria-label="seed-colour"/>
+            <select name="colour-mode" id="colour-mode">
+                <option value="monochrome">Monochrome </option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-colour-scheme-btn">Get colour scheme</button>
+        </div>
+    </form>
+    <div class="colour-scheme-div" id="colour-scheme-div">
+        <div class="colour-component">
+            <div class="colour-block" style="background:#000000"></div>
+            <div class="colour-info">
+                <h5 class="colour-hex">#000000</h5>
+                <p class="colour-name">Black</h5>
+            </div>
+        </div>
+        <div class="colour-component">
+            <div class="colour-block" style="background:#1A1919"></div>
+            <div class="colour-info">
+                <h5 class="colour-hex">#1A1919</h5>
+                <p class="colour-name">Eerie Black</h5>
+            </div>
+        </div>
+        <div class="colour-component">
+            <div class="colour-block" style="background: #343232"></div>
+            <div class="colour-info">
+                <h5 class="colour-hex">#343232</h5>
+                <p class="colour-name">Mine Shaft</h5>
+            </div>
+        </div>
+        <div class="colour-component">
+            <div class="colour-block" style="background:#4F4A4A"></div>
+            <div class="colour-info">
+                <h5 class="colour-hex">#4F4A4A</h5>
+                <p class="colour-name">Emperor</h5>
+            </div>
+        </div>
+        <div class="colour-component">
+            <div class="colour-block" style="background:#6A6262"></div>
+            <div class="colour-info">
+                <h5 class="colour-hex">#6A6262</h5>
+                <p class="colour-name">Granite Grey</h5>
+            </div>
+        </div>
+    </div>
+    <footer>Built by Rebecca Louw</footer>
+    <script src="index.js"></script>
+</body>
+</html>
