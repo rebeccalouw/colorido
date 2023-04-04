@@ -51,8 +51,5 @@ getColourSchemeBtn.addEventListener('click', (e) => {
 
 colourSchemeDiv.addEventListener('click', copyHex)
 
-// show other values on hover ???
-// format CSS
-
 
 
