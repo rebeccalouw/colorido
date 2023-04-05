@@ -15,7 +15,7 @@ Possible actions:
 
 <img alt="demo screenshot" src="images/colorido-screenshot1.png" height="300px"/>
 
-<div> <img alt="demo screenshot" src="images/colorido-screenshot3.png" height="350px"/> .<img alt="demo screenshot" src="images/colorido-screenshot2.png" height="350px"/>  </div>
+<div> <img alt="demo screenshot" src="images/colorido-screenshot3.png" height="350px"/> . <img alt="demo screenshot" src="images/colorido-screenshot2.png" height="350px"/>  </div>
 
 ## API
 - ![The Color API](https://www.thecolorapi.com/docs)
