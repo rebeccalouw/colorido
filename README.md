@@ -11,6 +11,15 @@ Possible actions:
 - Colour scheme is displayed
 - Copying the hex codes by clicking on them
 
+## Developer overview
+This was the first project that I built on my own consuming data from an API.
+- The majority of the app was built with Javascript
+- As soon as the user chooses the seed colour and colour scheme mode, that information is added to the link that fetches the data from the API
+- The data is saved to an array which can be mapped over to display the colour itself, hex code and colour name
+- A function was added so that clicking on the hex code will copy it to the clipboard
+- The mobile version had it design adapted to not be overloaded with information but rather allow the user focus on the colour scheme generated
+
+
 <br/>
 
 <img alt="demo screenshot" src="images/colorido-screenshot1.png" height="300px"/>
