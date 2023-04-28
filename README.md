@@ -3,21 +3,20 @@
 #### ✨ Deployed/demo version ![https://main--colorido.netlify.app//](https://main--colorido.netlify.app/)
 
 ## Demo overview
-This fully responsive project generates colour palletes based on the seed colour that the user chooses, consuming data from 'The Color API'. 
+This fully responsive project generates colour palletes based on the seed colour that the user selects, using data from 'The Color API'. 
 
 Possible actions:
-- Choosing the seed colour
-- Choosing the colour scheme mode: monochrome, monochrome-dark, monochrome-light, analogic, complement, analogic-complement, triad or quad
-- Colour scheme is displayed
-- Copying the hex codes by clicking on them
+- Selecting the seed colour
+- Selecting the colour scheme mode: monochrome, monochrome-dark, monochrome-light, analogic, complement, analogic-complement, triad or quad
+- The app displays the colour scheme and provides the user with the option to copy the hex codes to the clipboard (by clicking on the hex code)
 
 ## Developer overview
-This was the first project that I built on my own consuming data from an API.
-- The majority of the app was built with Javascript
-- As soon as the user chooses the seed colour and colour scheme mode, that information is added to the link that fetches the data from the API
+This was the first project that I built on my own using data from an API.
+- The majority of the app was built with JavaScript
+- As soon as the user selects the seed colour and colour scheme mode, the information is added to the url that fetches the data from the API
 - The data is saved to an array which can be mapped over to display the colour itself, hex code and colour name
 - A function was added so that clicking on the hex code will copy it to the clipboard
-- The mobile version had it design adapted to not be overloaded with information but rather allow the user focus on the colour scheme generated
+- The mobile version retains its functionality, but had its design adapted for legibility by only displaying the hex code with the respective colour
 
 
 <br/>
