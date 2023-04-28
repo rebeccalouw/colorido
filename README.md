@@ -1,6 +1,6 @@
 # Colorido 🎨 Colour Scheme Generator
 
-#### ✨ Deployed/demo version ![https://main--colorido.netlify.app//](https://main--colorido.netlify.app/)
+#### ✨ Deployed/demo version <a href="https://main--colorido.netlify.app/" target="_blank" rel="noreferrer">https://main--colorido.netlify.app/</a> 
 
 ## Demo overview
 This fully responsive project generates colour palletes based on the seed colour that the user selects, using data from 'The Color API'. 
@@ -26,7 +26,7 @@ This was the first project that I built on my own using data from an API.
 <div> <img alt="demo screenshot" src="images/colorido-screenshot3.png" height="350px"/> . <img alt="demo screenshot" src="images/colorido-screenshot2.png" height="350px"/>  </div>
 
 ## API
-- ![The Color API](https://www.thecolorapi.com/docs)
+- <a href="https://www.thecolorapi.com/docs" target="_blank" rel="noreferrer">The Color API</a> 
 
 ## Author: 
 👩‍💻 Rebecca Louw ![@rebeccalouw](https://github.com/rebeccalouw)
